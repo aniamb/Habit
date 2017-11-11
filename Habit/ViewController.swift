@@ -75,9 +75,6 @@ class ViewController: UITableViewController {
         }
         return cell
     }
-    //this is a commit
-    //coommiiyttttt
-    //hi
     
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath)
     {
@@ -88,6 +85,8 @@ class ViewController: UITableViewController {
         }
     }
     
+    
+    //adds checkmark
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
     {
         tableView.deselectRow(at: indexPath, animated: true)
@@ -101,13 +100,18 @@ class ViewController: UITableViewController {
         }
     }
     
+    //add new item
     @objc func didTapAddItemButton(_sender: UIBarButtonItem) {
         //this is a change
         //create alert
         let alert = UIAlertController (
             title: "New Habit",
-            message: "Insert the title of the new to-do item:",
+            message: "Insert the title of the new habit:",
             preferredStyle: .alert)
+        
+//        let alert = UIAlertController (
+//            coder: "New Habit",
+//        )
        
         // Add a text field to the alert for the new item's title
         alert.addTextField(configurationHandler: nil)
@@ -137,6 +141,7 @@ class ViewController: UITableViewController {
         // Tell the table view a new row has been created
         tableView.insertRows(at: [IndexPath(row: newIndex, section: 0)], with: .top)
     }
+
     
     @objc
     public func applicationDidEnterBackground(_ notification: NSNotification)

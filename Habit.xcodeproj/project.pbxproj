@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		082A7D2D1FB67E1C0071F9FC /* InfoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082A7D2C1FB67E1C0071F9FC /* InfoPage.swift */; };
+		082A7D2F1FB681650071F9FC /* HabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082A7D2E1FB681640071F9FC /* HabitViewController.swift */; };
 		08FEFE9A1F95A37900D10AE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FEFE991F95A37900D10AE4 /* AppDelegate.swift */; };
 		08FEFE9C1F95A37900D10AE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FEFE9B1F95A37900D10AE4 /* ViewController.swift */; };
 		08FEFE9F1F95A37900D10AE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08FEFE9D1F95A37900D10AE4 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		082A7D2C1FB67E1C0071F9FC /* InfoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPage.swift; sourceTree = "<group>"; };
+		082A7D2E1FB681640071F9FC /* HabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitViewController.swift; sourceTree = "<group>"; };
 		08FEFE961F95A37900D10AE4 /* Habit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Habit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08FEFE991F95A37900D10AE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08FEFE9B1F95A37900D10AE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,10 +63,12 @@
 				08FEFE991F95A37900D10AE4 /* AppDelegate.swift */,
 				08FEFE9B1F95A37900D10AE4 /* ViewController.swift */,
 				08FEFE9D1F95A37900D10AE4 /* Main.storyboard */,
+				082A7D2E1FB681640071F9FC /* HabitViewController.swift */,
 				08FEFEA01F95A37900D10AE4 /* Assets.xcassets */,
 				08FEFEA21F95A37900D10AE4 /* LaunchScreen.storyboard */,
 				08FEFEA51F95A37900D10AE4 /* Info.plist */,
 				08FEFEAB1F95A6C100D10AE4 /* Habit.swift */,
+				082A7D2C1FB67E1C0071F9FC /* InfoPage.swift */,
 			);
 			path = Habit;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 			files = (
 				08FEFEAC1F95A6C100D10AE4 /* Habit.swift in Sources */,
 				08FEFE9C1F95A37900D10AE4 /* ViewController.swift in Sources */,
+				082A7D2F1FB681650071F9FC /* HabitViewController.swift in Sources */,
+				082A7D2D1FB67E1C0071F9FC /* InfoPage.swift in Sources */,
 				08FEFE9A1F95A37900D10AE4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
